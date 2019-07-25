@@ -1,0 +1,81 @@
+.loginForm {
+  margin-top: 20px;
+}
+.attendanceForm {
+  margin-top: 20px;
+}
+.employeeTable {
+  margin-top: 3px;
+}
+.editIcon {
+  font-size: 18px !important;
+  transition: 0.2s;
+  color: lightgray;
+}
+.editIcon:hover {
+  color: black;
+}
+.deleteIcon {
+  font-size: 18px !important;
+  transition: 0.2s;
+  color: lightgray;
+}
+.deleteIcon:hover {
+  color: red;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 250px;
+  height: 1000px;
+}
+div.contentBody {
+  padding: 1px 16px;
+}
+.ui.secondary.menu {
+  margin: 0rem !important;
+}
+.ui.secondary.vertical.menu > .item.sidebarHeader {
+  background-color: #1678c2 !important;
+  color: white !important;
+  border-radius: 0rem !important;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15);
+  padding: 13px 13px;
+}
+
+.navMenu {
+  border-radius: 0px !important;
+  border: 0px !important;
+}
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}

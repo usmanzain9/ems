@@ -1,0 +1,7 @@
+ems@0.1.0 /home/usman/Documents/React/ems
+├── UNMET PEER DEPENDENCY @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0
+├── firebase@6.2.2  extraneous
+├── react-router-dom@5.0.1  extraneous
+├── semantic-ui-calendar-react@0.15.0  extraneous
+└── UNMET PEER DEPENDENCY semantic-ui-react@>=0.84.0
+
